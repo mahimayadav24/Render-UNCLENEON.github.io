@@ -70,7 +70,7 @@ body, html {
 }
 
 .ico img {
-    width: 60%;
+    width: 80%;
 }
 
 @media screen and (max-width: 1080px) {
@@ -99,7 +99,7 @@ section {
 
 .render-card {
     width: 100%;
-    max-width: 640px;
+    max-width: 800px;
     height: auto;
     margin: auto;
     margin-top: -2rem;
