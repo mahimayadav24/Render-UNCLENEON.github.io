@@ -40,8 +40,8 @@ body, html {
 }
 
 body, html {
-    overflow: hidden;
-    background-color: #80808045;
+    /* overflow: hidden; */
+    background-color: #83838345;
 }
 
 .render-icon {
@@ -108,7 +108,7 @@ section {
 
 .render-card {
     width: 500px;
-    height: 630px;
+    height: auto;
     margin: auto;
     margin-top: -2rem;
     -webkit-box-shadow: -1px 6px 13px 0px rgba(0, 0, 0, 0.44);
