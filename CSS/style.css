@@ -7,6 +7,8 @@
 
 body, html {
     overflow-x: hidden;
+    margin-bottom: 1rem;
+    background-color: #F9F9F9;
 }
 
 @font-face {
@@ -39,11 +41,6 @@ body, html {
     /* Firefox */
 }
 
-body, html {
-    /* overflow: hidden; */
-    background-color: #83838345;
-}
-
 .render-icon {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -55,8 +52,9 @@ body, html {
 }
 
 .render-icon img {
-    width: 15%;
-    padding: 10px 10px 10px 10px;
+    width: 20%;
+    margin-bottom: 1rem;
+    padding: 30px 10px 10px 10px;
 }
 
 .render-card h4 {
@@ -72,49 +70,45 @@ body, html {
 }
 
 .ico img {
-    width: 50%;
+    width: 60%;
 }
 
 @media screen and (max-width: 1080px) {
     .render-icon img {
-        width: 23%;
+        width: 35%;
     }
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 768px) {
     .render-icon img {
-        width: 28%;
+        width: 55%;
     }
 }
 
 @media screen and (max-width: 538px) {
     .render-icon img {
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .render-icon img {
-        width: 40%;
+        width: 80%;
     }
 }
 
 section {
-    height: 100vh;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     padding: 0px 20px 0px 20px;
 }
 
 .render-card {
-    width: 500px;
+    width: 100%;
+    max-width: 600px;
     height: auto;
     margin: auto;
     margin-top: -2rem;
-    -webkit-box-shadow: -1px 6px 13px 0px rgba(0, 0, 0, 0.44);
-    box-shadow: -1px 6px 13px 0px rgba(0, 0, 0, 0.44);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
     background-color: #fff;
     padding: 20px 30px 20px 30px;
+    border-color: #E5E5E5;
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
 }
 
 .CTA-download {
